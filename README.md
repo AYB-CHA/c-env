@@ -1,12 +1,12 @@
 
 # GET ENV VARIABLES
 
-small c programe to read ENV variables and print theme without using getenv() or printf()... functions
+small c programe to read ENV variables and print theme without using getenv() or printf()... functions or using envp of main.
 
 ## Inspiration
-I got the idea of making this programe after watching this video on youtub.
+I got the idea of making this programe after watching this video on youtube.
 and also I wanted to pratice some of pointer arithmetics.
-[![Video](https://i.ytimg.com/vi/eTcVLqKpZJc/maxresdefault.jpg)](https://youtu.be/eTcVLqKpZJc "Video on youtub")
+[![Video](https://i.ytimg.com/vi/eTcVLqKpZJc/maxresdefault.jpg)](https://youtu.be/eTcVLqKpZJc "Video on youtube")
 
 ## Usage/Examples
 
