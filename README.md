@@ -4,8 +4,8 @@
 small c programe to read ENV variables and print theme without using getenv() or printf()... functions
 
 ## Inspiration
-I got the idea of making this programe after watching this video on youtube.
-
+I got the idea of making this programe after watching this video on youtub.
+and also I wanted to pratice some of pointer arithmetics.
 [![Video](https://i.ytimg.com/vi/eTcVLqKpZJc/maxresdefault.jpg)](https://youtu.be/eTcVLqKpZJc "Video on youtub")
 
 ## Usage/Examples
@@ -17,13 +17,13 @@ compile the surce first
 ```
 make sure tho have make and gcc
 
-to get the list of all your env vars
+to get the list of all env vars
 run:
 ```bash
   ./env
 ```
 to get the value of a spesefic variable
-for example to get the value of PATH
+for example the PATH variable
 
 run:
 ```bash

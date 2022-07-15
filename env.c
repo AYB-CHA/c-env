@@ -1,5 +1,4 @@
 #include <unistd.h>
-#include <stdio.h>
 
 void my_putstr(char *str)
 {
@@ -26,7 +25,7 @@ int main(int ac, char *av[])
     {
         int j = 0;
         // TODO: loop through *(arv + 1) instead
-        // in most cases its shorter than the name+value from memory
+        // in most cases its shorter than the name=value from memory
         // so its gonna be a performence inhancement
         while (*(*(av + ac) + j) && *(*(av + 1) + j) == *(*(av + ac) + j))
         {
