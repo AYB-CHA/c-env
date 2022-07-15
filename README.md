@@ -11,7 +11,7 @@ and also I wanted to pratice some of pointer arithmetics.
 ## Usage/Examples
 
 to run the programe
-compile the surce first
+compile the source first
 ```bash
   make
 ```
