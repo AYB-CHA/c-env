@@ -4,14 +4,13 @@
 void my_putstr(char *str)
 {
     char *str_cpy = str;
-    while (*str++)
-        ;
+    while (*str++);
     write(1, str_cpy, str - str_cpy);
 }
 
 int main(int ac, char *av[])
 {
-    // skip null by adding one
+    // skip the null by adding one
     ac++;
     if (ac != 3)
     {
@@ -26,9 +25,9 @@ int main(int ac, char *av[])
     while (*(av + ac))
     {
         int j = 0;
-        // TODO: loop throw env var name insted
-        // in most cases its shorter than the name+value in memory
-        // so its going to be a performence inhancement
+        // TODO: loop through *(arv + 1) instead
+        // in most cases its shorter than the name+value from memory
+        // so its gonna be a performence inhancement
         while (*(*(av + ac) + j) && *(*(av + 1) + j) == *(*(av + ac) + j))
         {
             if (*(*(av + ac) + j + 1) == '=' && *(*(av + 1) + j + 1) == '\0')
